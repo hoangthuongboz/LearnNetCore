@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LearnNetCore.Application\LearnNetCore.Application.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Data.EF\LearnNetCore.Data.EF.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Data\LearnNetCore.Data.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Infrastructure\LearnNetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Utilities\LearnNetCore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
