@@ -3,9 +3,11 @@ using LearnNetCore.Data.Interfaces;
 using LearnNetCore.Infrastructure.ShareKernel;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LearnNetCore.Data.Entities
 {
+    [Table("ProductCategories")]
     public class ProductCategory : DomainEntity<int>, IHasSeoMetaData, ISwitchable, ISoftable, IDateTracking
     {
         public ProductCategory()
