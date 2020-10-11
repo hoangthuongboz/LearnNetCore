@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LearnNetCore.Data.EF\LearnNetCore.Data.EF.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Data\LearnNetCore.Data.csproj" />
+    <ProjectReference Include="..\LearnNetCore.Utilities\LearnNetCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
